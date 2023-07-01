@@ -1,0 +1,58 @@
+body{
+  background-image: url("https://www.whats-on-netflix.com/wp-content/uploads/2023/02/netflix-biggest-hits-of-all-time.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-navbar {
+  max-width: 350px;
+  margin: 250px auto 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+}
+
+.custom-navbar .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-navbar .btn {
+  width: 100%;
+}
+
+/* Estilos para a tabela */
+.table {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.table th,
+.table td {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
